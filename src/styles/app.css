@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.brand {
+	font-family: "Oxanium Variable", system-ui;
+}
+
+.content {
+  font-family: 'Space Grotesk Variable', sans-serif;
+}
+
+@layer base {
+	html {
+		@apply bg-dark text-white scroll-smooth;
+	}
+}

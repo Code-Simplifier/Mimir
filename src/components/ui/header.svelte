@@ -3,7 +3,7 @@
 	export let desc: string;
 </script>
 
-<h1 class="brand mb-4 text-3xl font-thin uppercase tracking-wide text-primary md:text-5xl">
+<h1 class="brand mb-4 text-3xl text-center font-thin uppercase tracking-wide text-primary md:text-5xl">
 	{title}
 </h1>
 <span class="text-center text-xl font-bold text-slate-700 md:text-2xl">{desc}</span>

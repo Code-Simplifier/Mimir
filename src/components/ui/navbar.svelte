@@ -21,12 +21,6 @@
 				<CoursesIcon />
 			</a>
 			<a
-				href="/tags"
-				class="rounded-lg p-2 transition-all duration-200 hover:bg-slate-600/50 hover:text-white"
-			>
-				<TagsIcon />
-			</a>
-			<a
 				href="/articles"
 				class="rounded-lg p-2 transition-all duration-200 hover:bg-slate-600/50 hover:text-white"
 			>

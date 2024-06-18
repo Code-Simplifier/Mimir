@@ -2,17 +2,24 @@
 @tailwind components;
 @tailwind utilities;
 
-
 .brand {
 	font-family: "Oxanium Variable", system-ui;
 }
 
 .content {
-  font-family: 'Space Grotesk Variable', sans-serif;
+	font-family: "Space Grotesk Variable", sans-serif;
+}
+
+.code {
+	font-family: "JetBrains Mono Variable", monospace;
 }
 
 @layer base {
 	html {
-		@apply bg-dark text-white scroll-smooth;
+		@apply scroll-smooth bg-dark text-white;
+	}
+
+	.prose :is(ul) {
+		@apply my-5 ml-10 flex list-disc flex-col space-y-3;
 	}
 }

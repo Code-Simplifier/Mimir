@@ -13,15 +13,15 @@ tags:
 ---
 
 <script>
-  import TOC from "../../components/shared/toc.svelte";
-  import Link from "../../components/shared/link.svelte"
-  import Heading from "../../components/shared/heading.svelte"
-  import CodeSpan from "../../components/shared/codespan.svelte"
+  import TOC from "$lib/components/shared/toc.svelte";
+  import Link from "$lib/components/shared/link.svelte"
+  import Heading from "$lib/components/shared/heading.svelte"
+  import CodeSpan from "$lib/components/shared/codespan.svelte"
   
-  import Warning from "../../components/shared/blocks/warning.svelte"
-  import Success from "../../components/shared/blocks/success.svelte"
-  import Error from "../../components/shared/blocks/Error.svelte"
-  import Info from "../../components/shared/blocks/Info.svelte"
+  import Warning from "$lib/components/shared/blocks/warning.svelte"
+  import Success from "$lib/components/shared/blocks/success.svelte"
+  import Error from "$lib/components/shared/blocks/Error.svelte"
+  import Info from "$lib/components/shared/blocks/Info.svelte"
 
 </script>
 

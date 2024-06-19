@@ -1,7 +1,7 @@
 <script lang="ts">
 	export let data;
 	import { formatDate } from "$lib/utils";
-	import Header from "../../../components/ui/header.svelte";
+	import Header from "$lib/components/ui/header.svelte";
 </script>
 
 <svelte:head>

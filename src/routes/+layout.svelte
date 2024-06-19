@@ -5,7 +5,7 @@
 	import "@fontsource-variable/space-grotesk";
 	import "@fontsource-variable/jetbrains-mono";
 
-	import Navbar from "../components/ui/navbar.svelte";
+	import Navbar from "$lib/components/ui/navbar.svelte";
 </script>
 
 <main class="overflow-x-hidden">

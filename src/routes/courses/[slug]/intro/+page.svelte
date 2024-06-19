@@ -1,7 +1,7 @@
 <script lang="ts">
 	export let data;
-	import Chapter from "../../../../components/ui/chapter.svelte";
-	import Header from "../../../../components/ui/header.svelte";
+	import Chapter from "$lib/components/ui/chapter.svelte";
+	import Header from "$lib/components/ui/header.svelte";
 </script>
 
 <section class="flex flex-col items-center justify-center pt-44">

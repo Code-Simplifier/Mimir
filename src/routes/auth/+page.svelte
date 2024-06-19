@@ -1,6 +1,6 @@
 <script lang="ts">
-	import Button from "../../components/ui/button.svelte";
-	import Header from "../../components/ui/header.svelte";
+	import Button from "$lib/components/ui/button.svelte";
+	import Header from "$lib/components/ui/header.svelte";
 </script>
 
 <svelte:head>

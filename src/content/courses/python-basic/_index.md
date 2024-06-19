@@ -9,5 +9,5 @@ level: Beginner
 ---
 
 <script>
-    import Heading from "../../../components/shared/heading.svelte"
+    import Heading from "$lib/components/shared/heading.svelte"
 </script>

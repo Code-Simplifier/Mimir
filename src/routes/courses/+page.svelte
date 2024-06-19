@@ -1,7 +1,7 @@
 <script lang="ts">
     export let data;
-	import Header from "../../components/ui/header.svelte";
-    import Course from "../../components/ui/course.svelte"
+	import Header from "$lib/components/ui/header.svelte";
+    import Course from "$lib/components/ui/course.svelte"
 </script>
 
 <svelte:head>

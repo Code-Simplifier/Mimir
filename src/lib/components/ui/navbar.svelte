@@ -1,8 +1,5 @@
 <script lang="ts">
-	import UserIcon from "../icons/nav/userIcon.svelte";
-	import ArticlesIcon from "../icons/nav/articleIcon.svelte";
-	import CoursesIcon from "../icons/nav/coursesIcon.svelte";
-	import TagsIcon from "../icons/nav/tagsIcon.svelte";
+	import Icon from "@iconify/svelte";
 </script>
 
 <nav class="absolute z-10 mb-0 w-full p-5 md:p-0">
@@ -18,19 +15,19 @@
 				href="/courses"
 				class="rounded-lg p-2 transition-all duration-200 hover:bg-slate-600/50 hover:text-white"
 			>
-				<CoursesIcon />
+				<Icon icon="hugeicons:graduation-scroll" width="32" />
 			</a>
 			<a
 				href="/articles"
 				class="rounded-lg p-2 transition-all duration-200 hover:bg-slate-600/50 hover:text-white"
 			>
-				<ArticlesIcon />
+				<Icon icon="hugeicons:news" width="32" />
 			</a>
 			<a
 				href="/auth"
 				class="rounded-lg p-2 transition-all duration-200 hover:bg-slate-600/50 hover:text-white"
 			>
-				<UserIcon />
+				<Icon icon="lucide:user-round" width="32" />
 			</a>
 		</div>
 	</div>
@@ -41,8 +38,14 @@
 			<img src="/logo.jpeg" alt="logo" class="h-[64px] w-[64px] rounded-full" />
 		</a>
 		<div class="flex gap-x-14">
+			<a href="/courses">
+				<Icon icon="hugeicons:graduation-scroll" width="32" />
+			</a>
+			<a href="/articles">
+				<Icon icon="hugeicons:news" width="32" />
+			</a>
 			<a href="/auth">
-				<UserIcon />
+				<Icon icon="lucide:user-round" width="32" />
 			</a>
 		</div>
 	</div>

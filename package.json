@@ -38,6 +38,7 @@
     "@fontsource-variable/jetbrains-mono": "^5.0.21",
     "@fontsource-variable/oxanium": "^5.0.20",
     "@fontsource-variable/space-grotesk": "^5.0.18",
+    "@iconify/svelte": "^4.0.2",
     "mdsvex": "^0.11.2"
   }
 }

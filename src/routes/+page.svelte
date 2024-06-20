@@ -10,7 +10,7 @@
 	<h1 data-value="MIMIR" class="brand text-7xl font-thin uppercase tracking-wide text-primary">
 		MIMIR
 	</h1>
-	<p class="text-2xl font-semibold tracking-tight text-slate-700">
+	<p class="text-2xl font-semibold tracking-tight text-center text-slate-700">
 		A Simple Solution for Sophisticated Coders
 	</p>
 	<Button title="Get Started" />
